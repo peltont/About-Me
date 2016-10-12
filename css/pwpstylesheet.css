@@ -8,6 +8,5 @@ header.main {
 }
 div.title {
 	background-color: darkslategray;
-	border-width: 2px;
-	border-color: solid white;
+	border: 2px solid white;
 }
