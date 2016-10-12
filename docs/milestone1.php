@@ -2,6 +2,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Milestone 1</title>
+		<!---->
 	</head>
 	<body>
 		<p>Purpose: I would like my personal website project to provide me with a professional looking personal website that prospective employers and clients can visit to learn about my and my capabilities.</p>
