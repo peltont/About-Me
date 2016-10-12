@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
 	</head>
