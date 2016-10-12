@@ -4,4 +4,8 @@ body {
 header.main {
 	font-size:300%;
 	font-style: italic;
+	text-align: center;
+}
+div.title {
+	background-color: darkslategray;
 }

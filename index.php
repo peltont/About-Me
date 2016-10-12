@@ -6,7 +6,9 @@
 		<title>Trevor's Page</title>
 	</head>
 	<body>
+		<div class="title">
 		<header class="main">Welcome to my Site</header>
+		</div>
 		<br>
 		<h1>My name is Trevor Pelton, </h1>
 
