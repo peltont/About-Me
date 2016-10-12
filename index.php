@@ -6,7 +6,7 @@
 		<title>Trevor's Page</title>
 	</head>
 	<body>
-		<div class="title">
+		<div class="title" style="border:2px white">
 		<header class="main">Welcome to my Site</header>
 		</div>
 		<br>
