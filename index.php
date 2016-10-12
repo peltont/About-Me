@@ -8,7 +8,9 @@
 	<body>
 		<div class="title">
 		<header class="main">Welcome to my Site</header>
-			<table>
+			</div>
+		<div>
+			<table class="title" cellpadding="4">
 				<tr>
 					<th>Navigation</th>
 					<td>About Me</td>
