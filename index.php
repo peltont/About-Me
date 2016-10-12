@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
@@ -5,7 +6,7 @@
 		<title>Trevor's Page</title>
 	</head>
 	<body>
-		<header>Welcome to my Site</header>
+		<header class="main">Welcome to my Site</header>
 		<br>
 		<h1>My name is Trevor Pelton, </h1>
 
