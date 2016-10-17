@@ -25,7 +25,7 @@
 		<img src="img/puppy.jpg" height="400" width="400">
 		<h2>I also enjoy reading and gaming... but mostly my dog.
 		MRW It's my turn:</h2>
-		<video src="http://imgur.com/4dUJvWI">
+		<video src="http://imgur.com/4dUJvWI" title="mrw">
 
 	</body>
 </html>
