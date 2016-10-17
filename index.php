@@ -22,7 +22,7 @@
 		<ul id="drop-nav">
 			<li><a href="#">Navigation</a></li>
 			<ul>
-				<li><a href="#">Previous Projects</a>
+			<li><a href="#">Previous Projects</a>
 				<ul>
 					<li><a href="#">HTML</a></li>
 					<li><a href="#">CSS</a></li>
@@ -44,8 +44,8 @@
 					<li>Blog</li>
 				</ul>
 			</li>
+				</ul>
 		</ul>
-			</ul>
 		<!--<div class="title">
 		<header class="main">Welcome to my Site</header>
 			</div>
