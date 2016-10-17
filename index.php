@@ -24,7 +24,7 @@
 		<h1>My name is Trevor Pelton, I like my dog:</h1>
 		<img src="img/puppy.jpg" height="400" width="400">
 		<h2>I also enjoy reading and gaming... but mostly my dog.
-
+dfasdf
 		MRW It's my turn:</h2>
 		<img src="http://imgur.com/4dUJvWI">
 
