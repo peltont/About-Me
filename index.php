@@ -21,8 +21,8 @@
 			</table>
 		</div>
 		<br>
-		<h1>My name is Trevor Pelton, blah blah </h1>
-
+		<h1>My name is Trevor Pelton, I like my dog:</h1>
+		<img src="img/puppy.jpg" height="400" width="400">
 	</body>
 </html>
 <?php
