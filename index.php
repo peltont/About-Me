@@ -21,7 +21,6 @@
 	<body>
 		<ul id="drop-nav">
 			<li><a href="#">Navigation</a></li>
-			<ul>
 			<li><a href="#">Previous Projects</a>
 				<ul>
 					<li><a href="#">HTML</a></li>
@@ -33,18 +32,17 @@
 				<ul>
 					<li><a href="#">History</a></li>
 					<li><a href="#">Resume</a></li>
-					<li><a href="#"></a></li>
-					<li><a href="#"></a></li>
+					<!--<li><a href="#"></a></li>
+					<li><a href="#"></a></li>-->
 				</ul>
 			</li>
 			<li><a href="#">Contact</a>
 				<ul>
 					<li><a href="#">General Contact</a></li>
 					<li><a href="#">Social Media</a></li>
-					<li>Blog</li>
+					<li><a href="#">Blog</a></li>
 				</ul>
 			</li>
-				</ul>
 		</ul>
 		<!--<div class="title">
 		<header class="main">Welcome to my Site</header>
