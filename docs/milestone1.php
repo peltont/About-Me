@@ -13,5 +13,6 @@
 				Goal:The site should be visually appealing and designed in such a way that he can learn whether or not my skills are a good fit for his company.</li>
 			<li>Use Case: Looking to expand his business or find a new employee, Robert can find this site related to me, and with minimal effort be able to tell that I am a good fit for his business.</li>
 		</ul>
+
 	</body>
 </html>
