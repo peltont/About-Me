@@ -13,15 +13,15 @@
 			<br>
 			Past Projects: Links and descriptions of all previous open source projects I have worked on.
 		</p>
-		<img src="/img/about-me-m.png">
-		<img src="/img/blog-m.png">
-		<img src="/img/contact-me-m.png">
-		<img src="/img/past-projects-m.png">
+		<img src="../img/about-me-m.png">
+		<img src="../img/blog-m.png">
+		<img src="../img/contact-me-m.png">
+		<img src="../img/past-projects-m.png">
 		<br>
-		<img src="/img/about-me.png">
-		<img src="/img/Blog.png">
-		<img src="/img/Contact-me.png">
-		<img src="/img/Past-Projects.png">
+		<img src="../img/about-me.png">
+		<img src="../img/Blog.png">
+		<img src="../img/Contact-me.png">
+		<img src="../img/Past-Projects.png">
 
 	</body>
 </html>
