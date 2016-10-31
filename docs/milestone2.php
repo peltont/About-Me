@@ -22,6 +22,7 @@
 		<img src="/img/Blog.png">
 		<img src="/img/Contact-me.png">
 		<img src="/img/Past-Projects.png">
+
 	</body>
 </html>
 <?php
