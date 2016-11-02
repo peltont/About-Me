@@ -11,7 +11,7 @@
 			<br>
 			Contact Me: Has a built in email message sender as well as links to my email, twitter, and github
 			<br>
-			Past Projects: Links and descriptions of all previous open source projects I have worked on.
+			Past Projects: Links and descriptions of all previous open source projects I have worked on. And am working on
 		</p>
 		<img src="../img/about-me-m.png">
 		<img src="../img/blog-m.png">
