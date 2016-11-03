@@ -46,7 +46,8 @@ Great job with your HTML and Directory structure as well.
 
 
 ### Edits &amp; Suggestions
-I noticed your last commit message is just "fix?" - while I personally believe this is a good commit message because I've made similar ones pretty often, try to avoid messages like this if you're going to link your Github to your personal website. You wouldn't want an employer seeing the work you've done and seeing the last commit message as "f*** it I give up. I'm just gonna work at Walmart."
+I noticed your last commit message is just "fix?" - while I personally believe this is a good commit message because I've made similar ones pretty often, try to avoid messages like this if you're going to link your Github to your personal website. You wouldn't want an employer seeing the work you've done and seeing the last commit message as "F*** it I give up. I'm just gonna work at Walmart."
+
 I'm gonna say hold off on building the blog during the class. This would be a good "Week 11" project for you. Look for plugins, I'm sure there's lots of them, that way you wont have to build the blog from scratch. 
 
 
