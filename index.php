@@ -34,6 +34,7 @@
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
+			<p>testing</p>
 		</div>
 
 	</body>
