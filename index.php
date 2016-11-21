@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<style type="text/css">
+		<!--<style type="text/css">
 			ul {list-style: none;padding: 0px;margin: 0px;}
 			ul li {display: block;position: relative;float: left;border:1px solid #000}
 			li ul {display: none;}
@@ -13,7 +13,7 @@
 			li:hover a {background: #f00;}
 			li:hover li a:hover {background: #000;}
 			#drop-nav li ul li {border-top: 0px;}
-		</style>
+		</style>-->
 		<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 		<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
 		<script type='text/javascript' src='js/dynamicpage.js'></script>
