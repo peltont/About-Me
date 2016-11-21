@@ -14,56 +14,27 @@
 			li:hover li a:hover {background: #000;}
 			#drop-nav li ul li {border-top: 0px;}
 		</style>
+		<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+		<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+		<script type='text/javascript' src='js/dynamicpage.js'></script>
 		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
 	</head>
 	<body>
-		<ul id="drop-nav">
-			<li><a href="#">Navigation</a></li>
-			<li><a href="#">Previous Projects</a>
-				<ul>
-					<li><a href="#">HTML</a></li>
-					<li><a href="#">CSS</a></li>
-					<li><a href="#">JavaScript</a></li>
-				</ul>
-			</li>
-			<li><a href="#">About me</a>
-				<ul>
-					<li><a href="#">History</a></li>
-					<li><a href="#">Resume</a></li>
-					<!--<li><a href="#"></a></li>
-					<li><a href="#"></a></li>-->
-				</ul>
-			</li>
-			<li><a href="#">Contact</a>
-				<ul>
-					<li><a href="#">General Contact</a></li>
-					<li><a href="#">Social Media</a></li>
-					<li><a href="#">Blog</a></li>
-				</ul>
-			</li>
-		</ul>
-		<!--<div class="title">
+
+		<div class="title">
 		<header class="main">Welcome to my Site</header>
 			</div>
-		<div>
-			<table class="title" cellpadding="4">
-				<tr>
-					<th>Navigation</th>
-					<td>About Me</td>
-					<td>Resume</td>
-					<td>Projects</td>
-					<td>Contact Me</td>
-				</tr>
-			</table>
-		</div>-->
-		<br>
-		<h1>My name is Trevor Pelton, I like my dog:</h1>
-		<img src="img/puppy.jpg" height="400" width="400">
-		<h2>I also enjoy reading and gaming... but mostly my dog.
-		MRW It's my turn:</h2>
-		<video src="http://imgur.com/4dUJvWI" title="mrw">
+		<div id="page-wrap">
+			<nav>
+				<ul>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="aboutme.php">About Me</a></li>
+					<li><a href="contact.php">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
 
 	</body>
 </html>
