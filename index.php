@@ -17,7 +17,7 @@
 		<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
 		<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
 		<script type='text/javascript' src='js/dynamicpage.js'></script>
-		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
+		<!--<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">-->
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
 	</head>
