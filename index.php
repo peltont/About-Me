@@ -34,7 +34,7 @@
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
-			<p>testing</p>
+			<p>testing deployment fix</p>
 		</div>
 
 	</body>
