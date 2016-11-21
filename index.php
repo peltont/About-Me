@@ -34,7 +34,7 @@
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
 			</nav>
-			<p>testing deployment fix</p>
+			<p>Welcome, my name is Trevor, and I develop software.</p>
 		</div>
 
 	</body>
