@@ -16,7 +16,11 @@
 		</style>-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script type="text/javascript" src="js/tabulous.js"></script>
-		<script type="text/javascript" src="js/js.js"></script>
+		<script type = "text/javascript">
+			$(document).ready(function($){
+				$('#tabs').tabulous();
+		</script>
+		<!--		<script type="text/javascript" src="js/js.js"></script>-->
 
 <!--		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">-->
 		<meta charset="UTF-8">
