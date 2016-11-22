@@ -22,7 +22,7 @@ p {
 
 }
 #tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
-	width: 1500px;
+	width: auto;
 	margin: 0 auto;
 	margin-bottom: 40px;
 }
