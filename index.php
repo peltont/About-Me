@@ -18,9 +18,9 @@
 		</style>-->
 		<link href='css/tabulous.css' rel='stylesheet' type='text/css'>
 
-		<!--		<script type="text/javascript" src="js/js.js"></script>-->
 
-<!--		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">-->
+
+		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
 	</head>
