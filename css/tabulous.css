@@ -10,7 +10,7 @@ p {
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 1px;
 
 }
 #tabs,#tabs2,#tabs3,#tabs4,#tabs5 {
@@ -27,7 +27,7 @@ p {
 #tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
 	display: block;
 	padding: 17px 30px;
-	background: slategray;
+	background: #544f6b;
 	text-decoration: none;
 	color: #8478B3;
 }
