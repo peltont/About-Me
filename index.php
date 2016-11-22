@@ -36,14 +36,14 @@
 			<div id="tabs_container">
 				<div id="tabs-1">
 					<!--tab content-->
-					CONTENT YO
+					<p>CONTENT YO</p>
 				</div>
 				<div id="tabs-2">
 					<!--tab content-->
-					MAYBE MORE
+					<p>MAYBE MORE</p>
 				</div>
 				<div id="tabs-3">
-					LOOK AT ALL THIS CONTENT
+					<p>LOOK AT ALL THIS CONTENT</p>
 					<!--tab content-->
 				</div>
 			</div><!--End tabs container-->
