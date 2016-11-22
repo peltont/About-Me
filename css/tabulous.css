@@ -1,4 +1,12 @@
-/* Don't forget to include a CSS reset file otherwise it might look a little bit strange*/
+/* Don't forget to include a CSS reset file otherwise it might look a little bit strange
+
+font-family: 'Audiowide', cursive;
+font-family: 'Unica One', cursive;
+font-family: 'Squada One', cursive;
+font-family: 'Baumans', cursive;
+font-family: 'Pattaya', sans-serif;
+
+*/
 a:active,a:focus {
 	outline: expression(hideFocus='true');
 }
@@ -30,6 +38,7 @@ p {
 	background: #544f6b;
 	text-decoration: none;
 	color: Black;
+	font-family: 'Audiowide', cursive;
 }
 
 #tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {

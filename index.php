@@ -17,9 +17,7 @@
 			#drop-nav li ul li {border-top: 0px;}
 		</style>-->
 		<link href='css/tabulous.css' rel='stylesheet' type='text/css'>
-
-
-
+		<link href="https://fonts.googleapis.com/css?family=Audiowide|Baumans|Pattaya|Squada+One|Unica+One" rel="stylesheet">
 		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
