@@ -27,7 +27,7 @@ p {
 #tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
 	display: block;
 	padding: 17px 30px;
-	background: #544f6b;
+	background: slategray;
 	text-decoration: none;
 	color: #8478B3;
 }
