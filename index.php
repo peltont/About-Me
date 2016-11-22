@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script type="text/css" src="css/tabulous.css"></script>
-	<script type="text/javascript" src="js/tabulous.js"></script>
+
+
 	<head>
 		<!--<style type="text/css">
 			ul {list-style: none;padding: 0px;margin: 0px;}
@@ -17,11 +16,8 @@
 			li:hover li a:hover {background: #000;}
 			#drop-nav li ul li {border-top: 0px;}
 		</style>-->
+		<link href='css/tabulous.css' rel='stylesheet' type='text/css'>
 
-		<script type = "text/javascript">
-			$(document).ready(function($){
-				$('#tabs').tabulous();
-		</script>
 		<!--		<script type="text/javascript" src="js/js.js"></script>-->
 
 <!--		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">-->
@@ -57,6 +53,9 @@
 		</div>
 		</div>
 			<!--End tabs-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/tabulous.js"></script>
+		<script type="text/javascript" src="js/js.js"></script>
 <!--		<div id="page-wrap">-->
 <!--			<nav>-->
 <!--				<ul>-->
