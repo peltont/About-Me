@@ -27,6 +27,7 @@
 		<div class="title">
 		<header class="main">Welcome to my Site</header>
 			</div>
+		<div id="wrapper">
 		<div id="tabs">
 			<ul>
 				<li><a href="#tabs-1" title="Home">Tab 1</a></li>
@@ -47,7 +48,9 @@
 					<!--tab content-->
 				</div>
 			</div><!--End tabs container-->
-		</div><!--End tabs-->
+		</div>
+		</div>
+			<!--End tabs-->
 <!--		<div id="page-wrap">-->
 <!--			<nav>-->
 <!--				<ul>-->
