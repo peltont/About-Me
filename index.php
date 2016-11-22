@@ -32,9 +32,9 @@
 		<div id="wrapper">
 		<div id="tabs">
 			<ul id="nobull">
-				<li><a href="#tabs-1" title="Home">Tab 1</a></li>
-				<li><a href="#tabs-2" title="About Me">Tab 2</a></li>
-				<li><a href="#tabs-3" title="Contact">Tab 3</a></li>
+				<li><a href="#tabs-1" title="Home">Home</a></li>
+				<li><a href="#tabs-2" title="About Me">About Me</a></li>
+				<li><a href="#tabs-3" title="Contact">Contact</a></li>
 			</ul>
 			<div id="tabs_container">
 				<div id="tabs-1">
@@ -46,7 +46,38 @@
 					<p>MAYBE MORE</p>
 				</div>
 				<div id="tabs-3">
-					<p>LOOK AT ALL THIS CONTENT</p>
+					<?php
+					//if "email" variable is filled out, send email
+					if (isset($_REQUEST['email']))  {
+
+						//Email information
+						$admin_email = "tnpflyer20@msn.com";
+						$email = $_REQUEST['email'];
+						$subject = $_REQUEST['subject'];
+						$comment = $_REQUEST['comment'];
+
+						//send email
+						mail($admin_email, "$subject", $comment, "From:" . $email);
+
+						//Email response
+						echo "Thank you for contacting us!";
+					}
+
+					//if "email" variable is not filled out, display the form
+					else  {
+						?>
+
+						<form method="post">
+							Email: <input name="email" type="text" /><br />
+							Subject: <input name="subject" type="text" /><br />
+							Message:<br />
+							<textarea name="comment" rows="15" cols="40"></textarea><br />
+							<input type="submit" value="Submit" />
+						</form>
+
+						<?php
+					}
+					?>
 					<!--tab content-->
 				</div>
 			</div><!--End tabs container-->
