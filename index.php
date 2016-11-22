@@ -14,8 +14,9 @@
 			li:hover li a:hover {background: #000;}
 			#drop-nav li ul li {border-top: 0px;}
 		</style>-->
-		<script type="text/javascript" src="tabulous.js"></script>
+		<script type="text/javascript" src="js/tabulous.js"></script>
 		<script type="text/javascript" src="js/js.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
