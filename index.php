@@ -14,10 +14,9 @@
 			li:hover li a:hover {background: #000;}
 			#drop-nav li ul li {border-top: 0px;}
 		</style>-->
-		<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
-		<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
-		<script type='text/javascript' src='js/dynamicpage.js'></script>
-		<!--<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">-->
+		<script type="text/javascript" src="tabulous.js"></script>
+		<script type="text/javascript" src="js/js.js"></script>
+		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
 	</head>
@@ -26,16 +25,34 @@
 		<div class="title">
 		<header class="main">Welcome to my Site</header>
 			</div>
-		<div id="page-wrap">
-			<nav>
-				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="about.php">About Me</a></li>
-					<li><a href="contact.php">Contact</a></li>
-				</ul>
-			</nav>
-			<p>Welcome, my name is Trevor, and I develop software.</p>
-		</div>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1" title="Home">Tab 1</a></li>
+				<li><a href="#tabs-2" title="About Me">Tab 2</a></li>
+				<li><a href="#tabs-3" title="Contact">Tab 3</a></li>
+			</ul>
+			<div id="tabs_container">
+				<div id="tabs-1">
+					<!--tab content-->
+				</div>
+				<div id="tabs-2">
+					<!--tab content-->
+				</div>
+				<div id="tabs-3">
+					<!--tab content-->
+				</div>
+			</div><!--End tabs container-->
+		</div><!--End tabs-->
+<!--		<div id="page-wrap">-->
+<!--			<nav>-->
+<!--				<ul>-->
+<!--					<li><a href="index.php">Home</a></li>-->
+<!--					<li><a href="about.php">About Me</a></li>-->
+<!--					<li><a href="contact.php">Contact</a></li>-->
+<!--				</ul>-->
+<!--			</nav>-->
+<!--			<p>Welcome, my name is Trevor, and I develop software.</p>-->
+<!--		</div>-->
 
 	</body>
 </html>
