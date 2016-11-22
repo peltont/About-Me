@@ -39,6 +39,7 @@ p {
 	text-decoration: none;
 	color: Black;
 	font-family: 'Audiowide', cursive;
+	font-size: 2em;
 }
 
 #tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
