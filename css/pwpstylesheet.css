@@ -14,3 +14,4 @@ div.title {
 	background-color: darkslategray;
 	border: 2px solid white;
 }
+ul.nobull {list-style-type: none;}

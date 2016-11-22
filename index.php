@@ -31,7 +31,7 @@
 			</div>
 		<div id="wrapper">
 		<div id="tabs">
-			<ul>
+			<ul id="nobull">
 				<li><a href="#tabs-1" title="Home">Tab 1</a></li>
 				<li><a href="#tabs-2" title="About Me">Tab 2</a></li>
 				<li><a href="#tabs-3" title="Contact">Tab 3</a></li>
