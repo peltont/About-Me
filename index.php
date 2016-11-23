@@ -18,14 +18,14 @@
 		</style>-->
 		<link href='css/tabulous.css' rel='stylesheet' type='text/css'>
 		<link href="https://fonts.googleapis.com/css?family=Audiowide|Baumans|Pattaya|Squada+One|Unica+One" rel="stylesheet">
-		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css" />
-		<meta charset="UTF-8"/>
+		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
+		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
 	</head>
 	<body>
 
 		<div class="title">
-		<header class="main"><h1>Welcome to my Site</h1></header>
+		<header class="main">Welcome to my Site</header>
 			</div>
 		<div id="wrapper">
 		<div id="tabs">
@@ -41,7 +41,7 @@
 				</div>
 				<div id="tabs-2">
 					<!--tab content-->
-					<p>MAYBE MORE</p>
+					<p>My name is Trevor Pelton, and I am a full stack web developer versed in HTML, CSS, PHP, JavaScript, mySQL, and Angular 2.</p>
 				</div>
 				<div id="tabs-3">
 					<?php
