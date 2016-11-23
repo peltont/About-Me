@@ -21,6 +21,9 @@
 		<link href="css/pwpstylesheet.css" rel="stylesheet" type="text/css">
 		<meta charset="UTF-8">
 		<title>Trevor's Page</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="js/tabulous.js"></script>
+		<script type="text/javascript" src="js/js.js"></script>
 	</head>
 	<body>
 
@@ -82,26 +85,7 @@
 		</div>
 		</div>
 			<!--End tabs-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		<script type="text/javascript" src="js/tabulous.js"></script>
-		<script type="text/javascript" src="js/js.js"></script>
-<!--		<div id="page-wrap">-->
-<!--			<nav>-->
-<!--				<ul>-->
-<!--					<li><a href="index.php">Home</a></li>-->
-<!--					<li><a href="about.php">About Me</a></li>-->
-<!--					<li><a href="contact.php">Contact</a></li>-->
-<!--				</ul>-->
-<!--			</nav>-->
-<!--			<p>Welcome, my name is Trevor, and I develop software.</p>-->
-<!--		</div>-->
 
 	</body>
 </html>
-<?php
-/**
- * Created by PhpStorm.
- * User: Fushi
- * Date: 10/11/2016
- * Time: 4:25 PM
- */
+
