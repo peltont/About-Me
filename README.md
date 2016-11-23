@@ -1,7 +1,6 @@
 # About-Me
 # TPelton
 
-
 ## Milestone 1 Feedback
 Your Purpose is written well - you specify what you're writing the website for, and who would be the main user base. I'm assuming you're going to be using this mainly like a resume site - so think about the best way to do that as you proceed.
 The Audience section is written perfectly! Not only do you clearly state the intended audience of the site - you explain what will happen in the future. Great job on this. 
@@ -10,16 +9,11 @@ Great job on your Persona and Use Case. Be sure to think about this part - "with
 
 Your HTML structure is good, but don't forget these two tags at the top of your document: `<!DOCTYPE html> <html lang="eng">`
 
-
 ### Edits &amp; Suggestions 
 - Include a goal in the same section as your Purpose and Audience
 - Make sure you have a public_html directory in the future.
 
-
-
 #### Overall, you did well. Only a couple of errors/missing things. You've passed milestone 1 in tier 3, and you may now advance to milestone 2a. Good job.
-
-
 
 ## Milestone 2&alpha; Feedback
 Great wireframes! You've done a great job outlining both the content strategy and layout of this site. Nice work. 
@@ -37,19 +31,16 @@ Great use of social media sections - you wont need Email because your contact fo
 For the Social Media icons, have a look Font Awesome. Very easy to use, simple and straightforward.
 http://fontawesome.io/
 
-
 When you do begin development, you'll build your page on `index.php` directly inside your `/public_html` directory.
 
-
 Great job with your HTML and Directory structure as well. 
-
-
 
 ### Edits &amp; Suggestions
 I noticed your last commit message is just "fix?" - while I personally believe this is a good commit message because I've made similar ones pretty often, try to avoid messages like this if you're going to link your Github to your personal website. You wouldn't want an employer seeing the work you've done and seeing the last commit message as "F*** it I give up. I'm just gonna work at Walmart."
 
 I'm gonna say hold off on building the blog during the class. This would be a good "Week 11" project for you. Look for plugins, I'm sure there's lots of them, that way you wont have to build the blog from scratch. 
 
-
-
 ##Really nice work here. Your Milestone 2&alpha; passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+## Milestone 2&beta; Feedback
+Nice work. Your Milestone 2&beta; passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
