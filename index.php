@@ -25,7 +25,7 @@
 	<body>
 
 		<div class="title">
-		<header class="main">Welcome to my Site</header>
+		<header class="main"><h1>Welcome to my Site</h1></header>
 			</div>
 		<div id="wrapper">
 		<div id="tabs">
