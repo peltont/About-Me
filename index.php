@@ -60,38 +60,58 @@
 					<p>My name is Trevor Pelton, and I am a full stack web developer versed in HTML, CSS, PHP, JavaScript, mySQL, and Angular 2.</p>
 				</div>
 				<div id="tabs-3">
-					<?php
-					//if "email" variable is filled out, send email
-					if (isset($_REQUEST['email']))  {
+					<!--Begin Contact Form-->
+					<form id="contact-form" action="php/mailer.php" method="post">
+						<div class="form-group">
+							<label for="name">Name <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="message">Message <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+							</div>
+						</div>
 
-						//Email information
-						$admin_email = "tnpflyer20@msn.com";
-						$email = $_REQUEST['email'];
-						$subject = $_REQUEST['subject'];
-						$comment = $_REQUEST['comment'];
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
 
-						//send email
-						mail($admin_email, "$subject", $comment, "From:" . $email);
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
 
-						//Email response
-						echo "Thank you for contacting us!";
-					}
-
-					//if "email" variable is not filled out, display the form
-					else  {
-						?>
-
-						<form method="post">
-							Email: <input name="email" type="text" /><br />
-							Subject: <input name="subject" type="text" /><br />
-							Message:<br />
-							<textarea name="comment" rows="15" cols="40"></textarea><br />
-							<input type="submit" value="Submit" />
-						</form>
-
-						<?php
-					}
-					?>
+					<!--empty area for form error/success output-->
+					<div class="row">
+						<div class="col-xs-12">
+							<div id="output-area"></div>
+						</div>
+					</div>
 					<!--tab content-->
 				</div>
 			</div><!--End tabs container-->
