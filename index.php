@@ -61,7 +61,7 @@
 				</div>
 				<div id="tabs-3">
 					<!--Begin Contact Form-->
-					<form id="contact-form" action="php/mailer.php" method="post">
+					<form id="contact-form" action="php/email.php" method="post">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
 							<div class="input-group">
