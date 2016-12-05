@@ -3,6 +3,19 @@
 
 
 	<head>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
+
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!--<style type="text/css">
 			ul {list-style: none;padding: 0px;margin: 0px;}
 			ul li {display: block;position: relative;float: left;border:1px solid #000}
