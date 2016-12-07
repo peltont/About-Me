@@ -52,7 +52,8 @@
 						 role="tab"
 						 aria-selected="true"
 						 aria-controls="panel1"
-						 tabindex="0">Home</label>
+						 tabindex="0"
+						 class="audio">Home</label>
 				<div id="tab-content1"
 					  class="tab-content"
 					  role="tabpanel"
