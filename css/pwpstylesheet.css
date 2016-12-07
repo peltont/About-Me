@@ -12,6 +12,15 @@ header.main {
 }
 div.title {
 	background-color: darkslategray;
-	border: 2px solid white;
+	/*border: 2px solid white;*/
+}
+div.centeralign{
+	alignment: center;
+}
+div.form-group{
+	padding: 2px;
+}
+textarea {
+	width: 600px;
 }
 #nobull {list-style-type: none;}

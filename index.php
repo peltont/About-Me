@@ -44,6 +44,7 @@
 		<div class="title">
 		<header class="main">Welcome to my Site</header>
 			</div>
+		<div>
 		<ul class="tabs" role="tablist">
 			<li>
 				<input type="radio" name="tabs" id="tab1" checked />
@@ -51,13 +52,28 @@
 						 role="tab"
 						 aria-selected="true"
 						 aria-controls="panel1"
-						 tabindex="0">Description</label>
+						 tabindex="0">Home</label>
 				<div id="tab-content1"
 					  class="tab-content"
 					  role="tabpanel"
 					  aria-labelledby="description"
 					  aria-hidden="false">
-					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+				<p></p>
+				</div>
+			</li>
+			<li>
+				<input type="radio" name="tabs" id="tab1" checked />
+				<label for="tab1"
+						 role="tab"
+						 aria-selected="true"
+						 aria-controls="panel1"
+						 tabindex="0">About Me</label>
+				<div id="tab-content1"
+					  class="tab-content"
+					  role="tabpanel"
+					  aria-labelledby="description"
+					  aria-hidden="false">
+				<p>My Name is Trevor and I'm an entry level developer.</p>
 				</div>
 			</li>
 
@@ -67,7 +83,7 @@
 						 role="tab"
 						 aria-selected="false"
 						 aria-controls="panel2"
-						 tabindex="0">Specification</label>
+						 tabindex="0">Contact Me</label>
 				<div id="tab-content2"
 					  class="tab-content"
 					  role="tabpanel"
@@ -108,7 +124,7 @@
 			<div class="input-group-addon">
 				<i class="fa fa-comment" aria-hidden="true"></i>
 			</div>
-			<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+			<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)" style="width: auto"></textarea>
 		</div>
 	</div>
 
@@ -128,7 +144,7 @@
 </div>
 </li>
 </ul>
-
+</div>
 <!--		<div id="wrapper">-->
 <!--		<div id="tabs">-->
 <!--			<ul id="nobull">-->
