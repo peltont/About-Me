@@ -11,8 +11,7 @@
  **/
 
 // your Google reCAPTCHA keys here
-$siteKey = '6Lfflg0UAAAAAP9TvVee34Bp7ELsblprbXUMPKqq
-';
+$siteKey = '6Lfflg0UAAAAAP9TvVee34Bp7ELsblprbXUMPKqq';
 $secret = '6Lfflg0UAAAAAGCQxD1dDrtWgyaXlI8Ki_RGbNHN';
 
 /**

@@ -63,7 +63,7 @@
 				</div>
 			</li>
 			<li>
-				<input type="radio" name="tabs" id="tab1" checked />
+				<input type="radio" name="tabs" id="tab2" checked />
 				<label for="tab1"
 						 role="tab"
 						 aria-selected="true"
@@ -74,12 +74,14 @@
 					  role="tabpanel"
 					  aria-labelledby="description"
 					  aria-hidden="false">
-				<p>My Name is Trevor and I'm an entry level developer.</p>
+					<img src="img/hershey-profresized.jpg">
+				<p>My Name is Trevor and I'm an entry level developer familiar with PHP, HTML5, CSS, JavaScript,  mySQL, MATLAB,
+					and Angular 2. I'm currently looking for work with a company with whom I may develop my skills</p>
 				</div>
 			</li>
 
 			<li>
-				<input type="radio" name="tabs" id="tab2" />
+				<input type="radio" name="tabs" id="tab3" />
 				<label for="tab2"
 						 role="tab"
 						 aria-selected="false"
@@ -91,7 +93,7 @@
 					  aria-labelledby="specification"
 					  aria-hidden="true">
 					<!--Begin Contact Form-->
-<form id="contact-form" action="php/email.php" method="post">
+<form id="contact-form" action="php/mailer.php" method="post">
 	<div class="form-group">
 		<label for="name">Name <span class="text-danger">*</span></label>
 		<div class="input-group">
