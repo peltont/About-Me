@@ -29,7 +29,7 @@
 	<body class="main">
 
 		<div class="title">
-			<header class="main">Welcome to my Site</header>
+			<header class="main">Welcome to Trevor's Coding Corner</header>
 		</div>
 		<div>
 			<ul class="tabs" role="tablist">
@@ -44,7 +44,7 @@
 					<div id="tab-content1"
 						  class="tab-content"
 						  role="tabpanel"
-						  aria-labelledby="description"
+						  aria-labelledby="about-me"
 						  aria-hidden="false">
 						<img src="img/hershey-profresized.jpg" class="profile-image">
 						<p>My Name is Trevor and I'm an entry level developer familiar with PHP, HTML5, CSS, JavaScript,
@@ -63,7 +63,7 @@
 					<div id="tab-content2"
 						  class="tab-content"
 						  role="tabpanel"
-						  aria-labelledby="specification"
+						  aria-labelledby="contact-me"
 						  aria-hidden="true">
 						<!--Begin Contact Form-->
 						<form id="contact-form" action="php/mailer.php" method="post">
@@ -119,6 +119,22 @@
 							</div>
 
 						</div>
+				</li>
+				<li>
+					<input type="radio" name="tabs" id="tab3"/>
+					<label for="tab3"
+							 role="tab"
+							 aria-selected="false"
+							 aria-controls="panel3"
+							 tabindex="2">Projects</label>
+					<div id="tab-content1"
+						  class="tab-content"
+						  role="tabpane3"
+						  aria-labelledby="description"
+						  aria-hidden="true">
+						<img src="img/hershey-profresized.jpg" class="profile-image">
+						<p>To be Added once more projects are completed...</p>
+					</div>
 				</li>
 			</ul>
 		</div>
